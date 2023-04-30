@@ -1,0 +1,353 @@
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700|Raleway:300,400');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;;
+  background-color: #050505;
+}
+
+img {
+    border-radius: 1.5vw;
+    position: absolute;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.page {
+    padding: 2%;
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #121212;
+}
+
+/* styling elements inside page-1 title page */
+
+.button {
+    border: none;
+    color: #DCDCDC;
+    background-color: #242424;
+    padding: 1.5vh 1.5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    margin: 5vh 5vw;
+    cursor: pointer;
+    border: 0.15vw solid #242424;
+    border-radius: 1.5vw;
+    position: absolute;
+}
+
+#button1:hover{
+    background-color:#A93648;
+    color: #ffffff;
+}
+
+#button2:hover{
+    background-color:#B7994F;
+    color: #ffffff;
+}
+
+#button3:hover{
+    background-color:#699BA3;
+    color: #ffffff;
+}
+
+.story-button {
+    right: 15vw;
+    top: 30vh;  
+}
+
+.video-button {
+    right: 15vw;
+    top: 45vh;  
+}
+
+.cast-button {
+    right: 15vw;
+    top: 60vh;  
+}
+
+/* placeholder to navigate to the top using back to top button */
+
+#placeholder-2 {
+    border: 0.15vw solid white;
+    position: absolute;
+    width: 10vw;
+    left: 0vw;
+    top: 0vh;
+    margin: 0%;
+    opacity: 0;
+}
+
+.title_0 {
+    color: #F0E3E3;
+    /* border: 0.15vw solid white; */
+    font-size: 80px;  
+    left: 28vw;
+    top: 42vh;
+    position: absolute;
+    margin: 0;
+    transform: rotate(-90deg);
+}
+
+.abraiz_majid {
+    color: #F0E3E3;
+    font-size: 2vw;  
+    left: 15vw;
+    top: 40vh;
+    position: absolute;
+    margin: 0;
+}
+
+/* story page-2 styling */
+
+.story_heading {
+    color: #8FD6E1;
+    font-size: 5vw;  
+    right: -2vw;
+    top: 10vh;
+    position: absolute;
+    margin: 0;
+    transform: rotate(-90deg);
+}
+
+.story__1 {
+    color: #F0E3E3;
+    font-size: 1.5vw;    
+    left: 20vw;
+    top: 15vh;
+    position: absolute;
+    width: 40vw;
+    margin: 0;
+}
+
+.story__2 {
+    color: #F0E3E3;
+    font-size: 1.5vw;    
+    left: 34vw;
+    position: absolute;
+    width: 40vw;
+    margin: 0;
+    top: 45vh;
+}
+
+.story__3 {
+    color: #F0E3E3;
+    font-size: 1.5vw;    
+    left: 22vw;
+    position: absolute;
+    width: 40vw;
+    margin: 0;
+    top: 75vh;
+}
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20%;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    background-image: url("./photos/up-arrowhead.png");
+  }
+  
+#back-to-top:hover {
+    opacity: 1;
+}
+
+#blockquote-2 {
+    width: 26vw;
+}
+
+#storypic-1 {
+    width: 25vw;
+    right: 10vw;
+    top: 10vh;
+}
+
+#storypic-2 {
+    width: 25vw;
+    height: 28vh;
+    right: 10vw;
+    top: 60vh;
+}
+
+#storypic-3 {
+    width: 25vw;
+    height: 28vh;
+    left: 5vw;
+    top: 35vh;
+}
+
+#placeholder-1 {
+    border: 0.15vw solid white;
+    position: absolute;
+    width: 10vw;
+    left: 70vw;
+    top: 90vh;
+    opacity: 0;
+}
+
+/* styling elements inside page-3 video */
+
+.video_heading {
+    color: #FFD369;
+    font-size: 5vw;  
+    right: -2vw;
+    top: 10vh;
+    position: absolute;
+    margin: 0;
+    transform: rotate(-90deg);
+}
+
+.video-container {
+    font-size: 2vw;  
+    left: 20vw;
+    top: 10vh;
+    position: absolute;
+    width: 60vw;
+    height: 60vh;
+    margin: 0;
+}
+
+.video_text {
+    border-radius: 0.7vw;  
+    color: #F0E3E3;
+    font-size: 1.5vw;   
+    text-align: center;
+    left: 35vw;
+    position: absolute;
+    width: 30vw;
+    margin: 0;
+    top: 85vh;
+}
+
+/* styling elements inside page-4 cast */
+
+#cast-container1 {
+    height: 40vh;
+    width: 70vw;
+    position: absolute;
+    top: 8vh;
+    left: 10vw;
+}
+
+#cast-container2 {
+    height: 40vh;
+    width: 70vw;
+    position: absolute;
+    top: 53vh;
+    left: 10vw;
+}
+
+.cast_heading {
+    color: #E94560;
+    font-size: 5vw;  
+    right: 0vw;
+    top: 10vh;
+    position: absolute;
+    margin: 0;
+    transform: rotate(-90deg);
+}
+
+.cast-name1 {
+    color: #E94560;
+    font-size: 4vw;    
+    left: 25vw;
+    position: absolute;
+    width: 28vw;
+    margin: 0;
+    top: 5vh;
+}
+
+.cast_text1 {
+    color: #F0E3E3;
+    font-size: 1.5vw;    
+    left: 25vw;
+    position: absolute;
+    width: 45vw;
+    height: 15vh;
+    margin: 0;
+    top: 20vh;
+}
+
+.cast-name2 {
+    color: #E94560;
+    font-size: 4vw;    
+    left: 25vw;
+    position: absolute;
+    width: 28vw;
+    margin: 0;
+    top: 5vh;
+}
+
+.cast_text2 {
+    color: #F0E3E3;
+    font-size: 1.5vw;    
+    left: 25vw;
+    position: absolute;
+    width: 45vw;
+    height: 15vh;
+    margin: 0;
+    top: 20vh;
+}
+
+
+#override-img1 {
+    border: 0.15vw solid white;
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 50%;
+    top: 4vh;
+    left: 2vw;
+}
+
+#override-img2 {
+    border: 0.15vw solid white;
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 50%;
+    top: 4vh;
+    left: 2vw;
+}
+
+.castpic__1 {
+    width: 25vw;
+    right: 15vw;
+    top: 15vh;
+}
+
+.castpic__2 {
+    width: 25vw;
+    right: 15vw;
+    top: 55vh;
+}
+
+/* styling the footer elements at the end of the webpage */
+
+#footer-div {
+    color: #F0E3E3;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+}
