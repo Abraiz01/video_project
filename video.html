@@ -9,12 +9,11 @@
   </head>
 
   <body>
-    <!-- section containing elements of the first page (homepage)-->
-    <section class="page" id="page-1">
-      <!-- using blockquotes instead of p tags because I noticed they look better with my selected font,
-        only a matter of personal preference -->
-      <blockquote class="title_0" id="title-1">
-        HACKATHON<span></span>
+    <!-- section containing elements of the video page -->
+    <section class="page" id="page-3">
+      <!-- adding the video, its description, and the side heading -->
+      <blockquote class="video_heading" id="video-heading">
+        Video<span></span>
       </blockquote>
       <!-- buttons that will navigate to the respective pages -->
       <div class="nav-buttons">
@@ -29,25 +28,30 @@
           />
         </a>
       </div>
-      <button id="back-to-top"></button>
-      <!-- placeholder to keep as a reference for the back-to-top button -->
-      <blockquote id="placeholder-2">Placeholder<span></span></blockquote>
+      <div class="video-container" id="video-div">
+        <video width="100%" height="100%" controls>
+          <source src="./photos/masterpiece.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <blockquote class="video_text" id="video-text">
+        Grab some popcorn, you won't regret it.<span></span>
+      </blockquote>
     </section>
 
-    <!-- section containing elements of the second page -->
-    <section class="page" id="page-2">
-      <img class="pic__1" id="storypic-1" src="./photos/blackbox.png" />
-      <img class="pic__2" id="storypic-2" src="./photos/duck.png" />
-      <img class="pic__3" id="storypic-3" src="./photos/jinn.png" />
-    </section>
+    <!-- libraries and modules -->
 
-    <!-- footer elements at the end of the website -->
-    <div id="footer-div">
-      <p>Copyright © 2023</p>
-      <p>Communications Lab</p>
-      <p>NYU Abu Dhabi</p>
-    </div>
+    <!-- Greensock and Scrollmagic libraries -->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
 
+    <!-- p5.js library -->
     <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
