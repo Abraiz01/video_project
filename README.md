@@ -3,6 +3,8 @@
 
  Created by: Hana Selmani, Majid Ibrahim, Abraiz Azhar, and Soumen Mohunty
 
+ Working Link: [Hackathon](https://abraiz01.github.io/CommunicationsLab/videoProject/)
+
 ## Project Description
 
 The NYUAD hackathon is an event that brings people with diverse talents and experiences together to cooperate and produce innovative solutions to specific challenges or problems. It is usually held over a few days, during which time participants work in groups to create prototypes or projects that meet the stated issue. The hackathon promotes creativity, experimentation, and teamwork, and it frequently draws people from various industries such as technology, design, and business. The event may offer a one-of-a-kind opportunity for networking, learning, and displaying new ideas.
