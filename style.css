@@ -549,6 +549,15 @@ body {
   border-radius: 5vw;
 }
 
+.about-img {
+  width: 35vw;
+  height: 55vh;
+  position: absolute;
+  top: 22vh;
+  right: 7vw;
+  border-radius: 5vw;
+}
+
 .about-heading {
   color: #EA7FFB;
   font-size: 3vw;
