@@ -4,9 +4,9 @@ let width = window.innerWidth;
 
 if (window.location.pathname == "/photos.html") {
 let slideIndex = 1;
-if (window.location.pathname == "/photos.html") {
+// if (window.location.pathname == "/photos.html") {
   showSlides(slideIndex);
-}
+// }
 
 // Next/previous controls
 function plusSlides(n) {
