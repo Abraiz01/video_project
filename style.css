@@ -247,9 +247,10 @@ body {
 }
 
 .video-container {
+  /* border: 0.15vw solid white; */
   font-size: 2vw;
   left: 20vw;
-  top: 20vh;
+  top: 25vh;
   position: absolute;
   width: 60vw;
   height: 60vh;
