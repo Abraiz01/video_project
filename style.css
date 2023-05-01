@@ -539,3 +539,31 @@ body {
     opacity: 1;
   }
 }
+
+.title-img {
+  width: 40vw;
+  height: 60vh;
+  position: absolute;
+  top: 25vh;
+  right: 10vw;
+  border-radius: 5vw;
+}
+
+.about-heading {
+  color: #EA7FFB;
+  font-size: 3vw;
+  left: 6vw;
+  top: 5vh;
+  position: absolute;
+  margin: 0;
+}
+
+.about-text {
+  color: #f0e3e3;
+  font-size: 2vw;
+  left: 6vw;
+  top: 20vh;
+  position: absolute;
+  width: 45vw;
+  margin: 0;
+}
