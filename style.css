@@ -109,20 +109,44 @@ body {
   opacity: 0;
 }
 
-.title_0 {
+.title_00 {
+  color: #EA7FFB;
+  /* border: 0.15vw solid white; */
+  font-size: 2vw;
+  left: 6.5vw;
+  top: 38vh;
+  position: absolute;
+  opacity: 75%;
+  /* display: none; */
+  margin: 0;
+}
+
+.title_01 {
   color: #f0e3e3;
   /* border: 0.15vw solid white; */
-  font-size: 80px;
+  font-size: 5.5vw;
   left: 6vw;
-  top: 42vh;
+  top: 45vh;
   position: absolute;
+  margin: 0;
+}
+
+.title_02 {
+  color: #f0e3e3;
+  /* border: 0.15vw solid white; */
+  font-size: 1.2vw;
+  left: 6.5vw;
+  top: 60vh;
+  position: absolute;
+  opacity: 60%;
+  /* display: none; */
   margin: 0;
 }
 
 .arabic-title {
   color: #f0e3e3;
   /* border: 0.15vw solid white; */
-  font-size: 40px;
+  font-size: 2.5vw;
   right: 6vw;
   top: 3vh;
   position: absolute;
@@ -195,7 +219,7 @@ body {
   border-radius: 20%;
   opacity: 0.6;
   transition: opacity 0.2s;
-  background-image: url("./photos/up-arrowhead.png");
+  background-image: url("./assets/up-arrowhead.png");
 }
 
 #back-to-top:hover {
@@ -573,6 +597,7 @@ body {
   left: 6vw;
   top: 20vh;
   position: absolute;
+  opacity: 85%;
   width: 45vw;
   margin: 0;
 }

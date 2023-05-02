@@ -3,7 +3,7 @@
 
  Created by: Hana Selmani, Majid Ibrahim, Abraiz Azhar, and Soumen Mohunty
 
- Working Link: [Hackathon](https://abraiz01.github.io/CommunicationsLab/videoProject/)
+ Working Link: [Hackathon](https://dust-silver-blackcurrant.glitch.me/index.html)
 
 ## Project Description
 
