@@ -36,3 +36,7 @@ Furthermore, our editing process enabled us to create a cohesive and engaging st
 We also wish to acknowledge the difficulties we had while filming and editing, such as technical issues and time limits. Despite these challenges, we were able to complete the project and meet our initial expectations and goals.
 
 Overall, we believe that our video captures the heart of the hackathon event and gives viewers significant insights into the creative and collaborative process of generating new solutions to real-world problems. We hope that our documentary motivates others to attend hackathons and pursue their own creative activities.
+
+## Credits
+
+Copyright to NYUAD Hackathon 2023 for some clips which were taken with permission from their gallery.
